@@ -200,7 +200,7 @@ function App() {
                   value={form.name}
                   onChange={handleChange}
                   placeholder="Full student name"
-                  className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm text-white outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10"
+                  className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm text-black outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10"
                 />
               </div>
 
@@ -222,7 +222,7 @@ function App() {
                     value={form.age}
                     onChange={handleChange}
                     placeholder="Age"
-                    className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm text-white outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10"
+                    className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm text-black outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10"
                   />
                 </div>
 
@@ -287,7 +287,7 @@ function App() {
                     value={form.phone}
                     onChange={handleChange}
                     placeholder="+964 750 123 4567"
-                    className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm text-white outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10"
+                    className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm text-black outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10"
                   />
                 </div>
               </div>
@@ -436,12 +436,12 @@ function App() {
                         </td>
 
                         <td className="whitespace-nowrap px-5 py-4">
-                          <p className="font-semibold text-white">
+                          <p className="font-semibold text-black">
                             {student.name}
                           </p>
                         </td>
 
-                        <td className="whitespace-nowrap px-5 py-4 text-sm font-medium text-slate-600">
+                        <td className="whitespace-nowrap px-5 py-4 text-sm font-medium text-black">
                           {student.age}
                         </td>
 
@@ -457,7 +457,7 @@ function App() {
                           </span>
                         </td>
 
-                        <td className="whitespace-nowrap px-5 py-4 text-sm font-medium text-slate-600">
+                        <td className="whitespace-nowrap px-5 py-4 text-sm font-medium text-black">
                           {student.phone}
                         </td>
 
